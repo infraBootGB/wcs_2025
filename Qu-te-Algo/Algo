@@ -1,0 +1,10 @@
+Début soustraction (réel argent, réel prix, entier nbbonbons)
+    nbbonbons <- 0
+    Si argent <= 0 ou prix <= 0 alors
+        retourner 0
+    fin si
+    Tant que argent >= prix
+        argent <- argent - prix
+        nbbonbons <- nbbonbons + 1
+    fin tant que
+    retourner nbbonbons
